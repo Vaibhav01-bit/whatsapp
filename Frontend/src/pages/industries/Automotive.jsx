@@ -21,11 +21,7 @@ function UseCase({ icon, title, desc }) {
 
 export default function Automotive() {
   return (
-    <div className="min-h-screen bg-[#020617] text-slate-200 font-['Outfit'] selection:bg-blue-500/30 pt-32 pb-20">
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-600/10 blur-[120px] rounded-full" />
-        <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-slate-600/10 blur-[120px] rounded-full" />
-      </div>
+    <div className="min-h-screen pt-32 pb-20">
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-24">
@@ -99,3 +95,6 @@ export default function Automotive() {
     </div>
   )
 }
+
+Automotive.glowColor1 = "bg-blue-600/10"
+Automotive.glowColor2 = "bg-slate-600/10"

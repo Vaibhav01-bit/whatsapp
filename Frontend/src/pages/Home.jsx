@@ -456,13 +456,6 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className="min-h-screen bg-[#020617] text-slate-200 font-['Outfit'] selection:bg-blue-500/30 overflow-x-hidden">
-        {/* Dynamic Background */}
-        <div className="fixed inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-600/10 blur-[120px] rounded-full" />
-          <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-600/10 blur-[120px] rounded-full" />
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20viewBox=%220%200%20200%20200%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter%20id=%22noiseFilter%22%3E%3CfeTurbulence%20type=%22fractalNoise%22%20baseFrequency=%220.65%22%20numOctaves=%223%22%20stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect%20width=%22100%25%22%20height=%22100%25%22%20filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E')] opacity-20 brightness-100 contrast-150" />
-        </div>
 
         {/* Hero Section */}
         <main className="relative pt-40 pb-20 px-6 max-w-7xl mx-auto">
@@ -1047,7 +1040,6 @@ export default function Home() {
           <MessageSquare className="text-white fill-white" />
           <span className="absolute -top-2 -right-2 w-6 h-6 bg-red-500 border-4 border-[#020617] rounded-full flex items-center justify-center text-[10px] font-bold text-white">1</span>
         </div>
-      </div>
     </Layout>
   )
 }

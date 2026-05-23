@@ -33,12 +33,7 @@ function AgentCard({ icon, name, role, capabilities }) {
 
 export default function Agents() {
   return (
-    <div className="min-h-screen bg-[#020617] text-slate-200 font-['Outfit'] selection:bg-purple-500/30 pt-32 pb-20">
-      {/* Background Decor */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-600/10 blur-[120px] rounded-full" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-600/10 blur-[120px] rounded-full" />
-      </div>
+    <div className="min-h-screen pt-32 pb-20">
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Hero Section */}
@@ -144,3 +139,6 @@ export default function Agents() {
     </div>
   )
 }
+
+Agents.glowColor1 = "bg-purple-600/10"
+Agents.glowColor2 = "bg-blue-600/10"

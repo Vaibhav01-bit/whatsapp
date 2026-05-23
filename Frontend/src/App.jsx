@@ -37,8 +37,10 @@ import WidgetGenerator from './pages/tools/WidgetGenerator'
 import Layout from './components/Layout'
 
 function PageWrapper({ children }) {
+  const glowColor1 = children.type?.glowColor1
+  const glowColor2 = children.type?.glowColor2
   return (
-    <Layout>
+    <Layout glowColor1={glowColor1} glowColor2={glowColor2}>
       {children}
     </Layout>
   )

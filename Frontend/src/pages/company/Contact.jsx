@@ -79,10 +79,7 @@ export default function Contact() {
 }
 
   return (
-    <div className="min-h-screen bg-[#020617] pt-32 pb-20 relative overflow-hidden">
-      {/* Background Effects */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-blue-600/20 rounded-full blur-[120px] opacity-50 pointer-events-none" />
-      <div className="absolute bottom-0 right-0 w-[800px] h-[600px] bg-purple-600/10 rounded-full blur-[150px] opacity-50 pointer-events-none" />
+    <div className="min-h-screen pt-32 pb-20 relative overflow-hidden">
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <motion.div 

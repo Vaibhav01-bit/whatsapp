@@ -21,12 +21,7 @@ const FeatureBox = ({ icon: Icon, title, description }) => (
 
 export default function AboutUs() {
   return (
-    <div className="min-h-screen bg-[#020617] text-slate-200 font-['Outfit'] selection:bg-blue-500/30 pt-32 pb-20 overflow-hidden">
-      {/* Animated Background Elements */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] bg-blue-600/10 blur-[120px] rounded-full animate-pulse" />
-        <div className="absolute bottom-[-10%] left-[-10%] w-[50%] h-[50%] bg-indigo-600/10 blur-[120px] rounded-full animate-pulse" style={{ animationDelay: '2s' }} />
-      </div>
+    <div className="min-h-screen pt-32 pb-20 overflow-hidden">
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Hero Section */}
